@@ -150,18 +150,18 @@ a{
 #site-main{
     margin-top: 8em;
 }
-
 #posts{
     margin-bottom: 5em;
 }
-
 .grid{
     margin: 0 auto;
 }
-
 .grid .grid-item{
     width: calc(33.3333% - 20px);
     margin-bottom: 3em;
+}
+.slide-img{
+    height: 347px;
 }
 
 /* ------ .Main Section ------ */
@@ -185,28 +185,22 @@ a{
     .toggle-button{
         display: initial;
     }
-
     .collapse{
         max-height: 0;
         overflow: hidden;
         transition: all 0.5s cubic-bezier(.79,.14,.15,.86);
     }
-
     .collapse .nav-link{
         display: block;
         text-align: center;
     }
-
     .search-box{
         border-right: none;
     }
-
     .collapse-toggle{
         max-height: 500px;
     }
-
     .grid .grid-item{
         width: calc(100% - 20px);
     }
-
 }
