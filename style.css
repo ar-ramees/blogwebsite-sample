@@ -87,6 +87,50 @@ a{
     border-radius: 4px;
     background-color: var(--secondary-color);
 }
+.object-fit{
+    max-height: 120px;
+    height: 80px;
+    width: 80px;
+    object-fit: fill;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.mt-1{
+    margin-top: 10px;
+}
+.mt-5{
+    margin-top: 50px;
+}
+.mb-3{
+    margin-bottom: 30px;
+}
+.px-05{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.px-2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.py-1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.py-2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.py-3{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 
 /* section styling */
@@ -169,6 +213,9 @@ a{
 /* ------ Footer ------ */
 #footer{
     padding-top: 4em;
+}
+#footer .feature-post .flex-item{
+    margin-bottom: 10px;
 }
 
 /* ------ .Footer ------ */
