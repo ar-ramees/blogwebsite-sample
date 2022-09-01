@@ -166,18 +166,47 @@ a{
 
 /* ------ .Main Section ------ */
 
+/* ------ Footer ------ */
+#footer{
+    padding-top: 4em;
+}
+
+/* ------ .Footer ------ */
 
 /* Media Query */
+
+.row{
+    display: flex;
+}
+.col-3{
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding-right: 35px;
+}
 
 @media(max-width: 1080px){
     .navbar{
         flex-direction: column;
     }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col-3{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 
-@media(max-width: 764px){
+@media(max-width: 768px){
     .grid .grid-item{
         width: calc(50% - 20px);
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col-3{
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 
