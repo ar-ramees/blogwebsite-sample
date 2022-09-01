@@ -96,6 +96,9 @@ a{
 .d-flex{
     display: flex;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 .justify-content-center{
     justify-content: center;
 }
@@ -131,10 +134,15 @@ a{
     padding-left: 30px;
     padding-right: 30px;
 }
+.thumbnail{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
 
 
 /* section styling */
-
 /* ------ Navigation Menu ------ */
 .navbar{
     position: relative;
@@ -143,36 +151,30 @@ a{
     justify-content: space-between;
     padding: 10px;
 }
-
 .nav-brand{
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     align-self: center;
     font-size: 32px;
 }
-
 .collapse{
     align-self: center;
 }
-
 .nav-link{
     font-size: 18px;
     margin: 12px;
     color: var(--dark);
     font-family: 'Poppins', sans-serif;
 }
-
 .nav-link:hover{
     color: var(--primary-color);
 }
-
 .search-box{
     display: inline;
     border-right: 1px solid var(--secondary);
     padding-right: 12px;
     margin-right: 10px;
 }
-
 .toggle-button{
     font-size: 21px;
     background-color: transparent;
@@ -182,7 +184,6 @@ a{
     margin: 8px 10px;
     display: none;
 }
-
 .toggle-button:focus{
     outline: none;
 }
@@ -217,8 +218,23 @@ a{
 #footer .feature-post .flex-item{
     margin-bottom: 10px;
 }
-
+#footer .tags a{
+    border-radius: 40px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+#footer .copyrights{
+    padding: 10px 0;
+    border-top: 2px solid var(--light);
+}
 /* ------ .Footer ------ */
+
+/* ------ article page ------ */
+#post{
+    padding: 0 2em;
+    margin-bottom: 4em;
+}
+/* ------ .article page ------ */
 
 /* Media Query */
 
